@@ -6,3 +6,14 @@
 body{
     background-color: aliceblue;
 }
+
+Header, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
